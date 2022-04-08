@@ -1,0 +1,56 @@
+
+.rounded-circle:hover {
+    background-color:black;
+}
+.height img {
+    height: 20px;
+}
+.btn {
+    color: #9ec1d2;
+    background: #fff;
+    border: 1px solid #9ec1d2;
+    border-radius: 100px;
+    padding: 20px 50px;
+    transition-duration: .3s;
+    perspective: 1000px;
+    transform-origin: center bottom 0px;
+  }
+  
+  .btn:hover {
+    background: #9ec1d2;
+    color: white;
+  }
+  
+  .pressed {
+    transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+  }
+
+.profil-image {
+  position:relative;
+}
+
+.rounded-circle.profil-image {
+  position: absolute;
+}
+.border.bg-warning.p-3 {
+  position: relative;
+}
+.img-fluid.rounded-start.image-profil {
+  height: 60px;
+}
+.nav-item.col-lg-12.col-6-md.col-12-sm.p-1 {
+  display: flex;
+}
+.flex {
+  margin-left: 10px;
+line-height: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.img-fluid.rounded-start {
+  padding: 10px;
+}
